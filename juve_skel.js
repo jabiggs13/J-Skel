@@ -87,7 +87,7 @@ thorax.attr({fill: '#000000',stroke: 'none','stroke-width':'1','stroke-opacity':
 thorax.transform("").data('id', 'thorax');
 
 var thorax = rsr.path("M1938 6103 c7 -3 16 -2 19 1 4 3 -2 6 -13 5 -11 0 -14 -3 -6 -6z");
-thorax.attr({fill: '#000000',stroke: 'none','stroke-width':'1','stroke-opacity':'1','});
+thorax.attr({fill: '#000000',stroke: 'none','stroke-width':'1','stroke-opacity':'1'});
 thorax.transform("").data('id', 'thorax'); 
 
 bones.push(thorax);
