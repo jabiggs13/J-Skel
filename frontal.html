@@ -33,7 +33,9 @@
 			transform:scale (1.2); 
 			}
 		function myFunction() {
-    document.getElementById("demo").innerHTML = "Hello World";
+    			document.getElementById("unfused").innerHTML = "Less than 2 years of age";
+			document.getElementById("fusing").innerHTML = "Around 2-4 years of age";
+			document.getElementById("fused").innerHTML = "Older than 4 years of age";
 }
 		
 	</style>
@@ -117,13 +119,13 @@
                 </ul>
 			    
 		<button onclick="myFunction()">Unfused</button>
-			<p id="demo">Less than 2 years of age</p>
+			<p id="unfused"></p>
 			    
 	    	<button onclick="myFunction()">Fusing</button>
-			<p id="demo">2-4 years of age</p>
+			<p id="fusing"></p>
 			    
 		<button onclick="myFunction()">Completely Fused</button>
-			<p id="demo">Greater than 4 years of age</p>			    
+			<p id="fused"></p>			    
             </div>
 		</div>
        
