@@ -13,3 +13,11 @@ div.description{
   padding-right: 10px;
   padding-left: 10px;
 }
+
+div.estimate{
+  border: 3pxsolid #000000;
+  background-color: #ffffff;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: Arial;
+}
