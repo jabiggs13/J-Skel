@@ -7,7 +7,7 @@ div.fixed{
 }
 
 div.description{
- font-family: Arial Roundeded MT Bold;
+ font-family: Arial;
  font-size: 135%;
 }
 
@@ -17,5 +17,5 @@ div.estimate{
   padding-top: 10px;
   padding-right: 10px;
   padding-left: 10px;
-  font-family: Arial Rounded MT Bold;
+  font-family: Arial;
 }
