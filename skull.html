@@ -31,12 +31,6 @@
 			fill: #979797;
 			transform:scale (1.2); 
 			}
-		
-		function myFunction() {
-    			document.getElementById("unfused").value = "Less than 2 years of age";
-			document.getElementById("fusing").value = "Around 2-4 years of age";
-			document.getElementById("fused").value = "Older than 4 years of age";
-			}
 	</style>
 </head>
 
@@ -240,7 +234,14 @@
 	<div class="col-lg-4">
 		<div class="estimate">
 			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+			
+			<p>Estimated Age Range:<input type="text" id="age-range" value="" size=30></p>
+			
+				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 2 years of age';">
+
+				<br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 2-4 years of age';">
+
+				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Older than 3 years of age';">
 			
 			<button onclick="myFunction()">Unfused</button>
 			<p id="unfused"></p>
