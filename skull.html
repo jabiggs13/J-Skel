@@ -237,7 +237,7 @@
 			
 			<p>Estimated Age Range:<input type="text" id="age-range" value="" size=30></p>
 			
-			<p>Metopic Suture:</p>
+			<p>Metopic Suture closure:</p>
 			
 				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 2 years of age';">
 
@@ -267,13 +267,11 @@
 	<div class="col-lg-4">
 		<div class="estimate">
 			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+			<p>Fusion of the pars squama to the pars petrosa</p>
 			
-			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 2 years of age';">
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
 
-			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 2 - 4 years of age';">
-
-			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 4 years of age';">
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
 			
 			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
 			<br>
@@ -291,7 +289,7 @@
 		<h2><a name="occipital1">The Occipital</a></h2>
 		<p>The occipital bone is made up of multiple ossification centers that appear in utero. Postnatal fusion of these ossification centers to each other are not all concurrent, but occur in a specific order and on a known schedule. Around birth, the occipital is usually split into four major components: pars squama (1), pars lateralis (2), and pars basilaris (1).</p>
 		<p>The pars squama is made up of separate ossification centers that begin to fuse in utero. At birth, fusion is not usually complete and the remnant of the sutura mendosa is present. The sutura mendosa runs infero-laterally and usually disappears by the end of the first year after birth (CITATIONS).</p>
-		<p>The pars laterali (PLURAL???) are the bilateral ossification centers that house the occipital condyles as well as make up the majority of the border of the foramen magnum. Fusion to the pars squama occurs first and takes place between the first and third years (CITATIONS).</p>
+		<p>The pars laterales are the bilateral ossification centers that house the occipital condyles as well as make up the majority of the border of the foramen magnum. Fusion to the pars squama occurs first and takes place between the first and third years (CITATIONS).</p>
 		<p>The pars basilaris makes up the base of the occipital in adults. On the posterior aspect, fusion of the pars basilaris to the pars lateralis takes places between years 5 and 7 (CITATIONS). The anterior surface later fuses to the sphenoid at the spheno-occipital synchondrosis. Fusion of these surfaces tends to be highly variable and even different between the sexes. Fusion of the spheno-occipital synchorosis in females takes places between 11 and 16 years (CITATIONS) while in males, fusion occurs between 13 and 18 years (CITATIONS). As a result, relying on this single fusion center for age-at-death estimations is not entirely accurate but can be used to corroborate the age estimation based on other areas.</p>
 		</div>
 	</div>
@@ -299,16 +297,37 @@
 	<div class="col-lg-4">
 		<div class="estimate">
 			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+			<p>Sutura Mendosa closure:</p>
 			
-			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 2 years of age';">
+			<br><input type="button" value="Present" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
 
-			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 2 - 4 years of age';">
-
-			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 4 years of age';">
-			
+			<br><br><input type="button" value="Absent/Complete" onclick="document.getElementById('age-range').value='Greater than 1 year';">
+		
 			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
 			<br>
+			
+			<p>Fusion of the pars laterales to the pars squama:</p>
+			
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year (can be up to 3)';">
+
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Between 1 and 3 years of age';">
+			
+			<br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 3 years of age';">
+		
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+			
+			<p>Fusion of the pars basilaris to the pars laterales:</p>
+			
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 5 years of age (can be upt to 7)';">
+
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Between 5 and 7 years of age';">
+			
+			<br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 7 years of age';">
+		
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+			
 		</div>
 	</div>
 </section>
@@ -321,22 +340,35 @@
 	<div class="col-lg-4">
 		<div class="description">
 		<h2><a name="sphenoid1">The Sphenoid</a></h2>
-			<p>Sphenoid thangs</p>
+			<p>The sphenoid is another bone with multiple ossification centers that appear in fetal life.  Although there are at least five centers that ossify in utero, fusion of some of these occurs before birth (CITATIONS).</p>
+			<p>By birth some of them have already fused and normally three are present: (1) the body and lesser wings and (2) a right and a left greater wing fused to the pterygoid plates (CITATIONS).</p>
+			<p>The body and lesser wings make up the midline features that are also mostly endocranial while the lesser wings contribute ectocranially to the area beside and behind the eyes informally called the "temples".  Additionally, the pterygoid plates that are fused to the lesser wings by birth contribute to endocranially as well.</p>
+			<p>Even though these separate ossification centers are highly complex in form and function, they are all normally fused together during the first year of life.</p>
+			<p>The spenoid also contributes to the spheno-occipital synchondrosis, as discussed above in the occipital bone section.  This surface faces posteriorly and fuses with the basilar portion of the occipital bone.  Fusion of these two surfaces occurs within a wide time-frame and can also be contigent upon the sex of the individual.  Generally, these fuse earlier in females (between 11 and 16 years of age) than in males (between 13 and 18 years of age), but this is variable (CITATIONS).</p>
+			
 		</div>
 	</div>
 	
 	<div class="col-lg-4">
 		<div class="estimate">
 			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+			<p>Fusion of greater wings/pterygoid plates to the lesser wings/sphenoid body:</p>
 			
-			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 2 years of age';">
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
 
-			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 2 - 4 years of age';">
-
-			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 4 years of age';">
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
 			
 			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			
+			<p>Closure of the spheno-occipital synchondrosis:</p>
+			<p><small>*Note: this area of fusion is highly variable</small></p>
+			
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 11 (females) or 13 (males) years of age';">
+			
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 16 (females) and 18 (males) years of age';">
+			
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			
 			<br>
 		</div>
 	</div>
@@ -350,20 +382,18 @@
 	<div class="col-lg-4">
 		<div class="description">
 		<h2><a name="mandible1">The Mandible</a></h2>
-		<p>Similar to the frontal bone, the mandible originates as two separate ossification centers that fuse to become one single bone.  This fusion occurs at midline (bisecting the mental eminence) at the mandibular symphyseal surface, or the symphysis of the mandible.  The fusion of the two mandibular halves takes place within the first year of life meaning that if infant remains present two mandibular halves, the individual died within the first year of life.</p>
+		<p>Similar to the frontal bone, the mandible originates as two separate ossification centers that fuse to become one single bone.  This fusion occurs at midline (bisecting the mental eminence) at the mandibular symphysis.  The fusion of the two mandibular halves takes place within the first year of life meaning that if infant remains present two mandibular halves, the individual died within the first year of life.</p>
 		</div>
 	</div>
 	
 	<div class="col-lg-4">
 		<div class="estimate">
 			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+			<p>Closure of the mandibular sypmhysis:</p>
 			
-			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 2 years of age';">
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
 
-			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 2 - 4 years of age';">
-
-			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 4 years of age';">
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
 			
 			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
 			<br>
