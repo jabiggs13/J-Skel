@@ -32,6 +32,24 @@
 			fill: #979797;
 			transform:scale (1.2); 
 			}
+		myBtn {
+  			display: none;
+  			position: fixed;
+  			bottom: 20px;
+  			right: 30px;
+  			z-index: 99;
+  			border: none;
+  			outline: none;
+  			background-color: black;
+  			color: white;
+  			cursor: pointer;
+  			padding: 15px;
+  			border-radius: 10px;
+			}
+
+		myBtn:hover {
+  			background-color: #555;
+			}
 		
 	</style>
    
@@ -40,6 +58,27 @@
 
 <body>
 
+<!-- Back to top scroll button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+	//When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}	
+
+	
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
