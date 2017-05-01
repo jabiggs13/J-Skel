@@ -1,5 +1,5 @@
 div.fixed{
-  position: absolute;
+  position: fixed;
   border: 3px solid #000000;
   background-color: #ffffff;
   padding-right: 10px;
