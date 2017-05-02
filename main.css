@@ -8,7 +8,6 @@ div.fixed{
 
 div.description{
  font-size: 110%;
- font-family: :Arial:;
 }
 
 div.estimate{
@@ -23,4 +22,8 @@ div.estimate{
 
 div.region-intro{
   font-size: 140%;
+}
+
+a {
+  color: #ffffff;
 }
