@@ -27,3 +27,9 @@ div.region-intro{
 a {
   color: #ffffff;
 }
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
