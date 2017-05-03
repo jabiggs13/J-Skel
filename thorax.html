@@ -203,46 +203,108 @@
                     <li>Hit "Save Age Range" if you wish to look at another bone or element</li>
 		</div>
 	</div>
+		
+	<div class="col-md-1">
+		<div class="fixed">
+		<h5>Estimated Age Range:<input type="text" id="age-range" value="" size=33></h5>
+		</div>
+	</div>
 </section>
         
 <section class="container"> 
-	<div class="col-lg-4"> 
-		<p>Pictures of atlas</p>
+	<div class="col-lg-4">
+		<img src="img/pics/atlas.png" alt="Atlas - C1" style="width:100%; height:100%;">
+		<h6>Unfused atlas from a perinate.</h6>
         </div>
             
-	<div class="col-lg-4">
+	<div class="col-lg-3">
 		<div class="description">
 		<h2><a name="atlas1">The Atlas</a></h2>
-		<p>The atlas, or C1 vertebra, is the most superior vertebra that articulates with the occipital bone and allows rotary and pivoting movements of the head and neck.  Unlike other vertebrae, not all of the ossification centers of the atlas are present at birth.  Only the two <b>lateral masses</b> are present with the <b>anterior arch</b> appearing by the second year (CITATIONS).</p>
-		<p>Between the fourth and sixth years, the two lateral masses fuse together posteriorly to form the <b>posterior arch</b>.  Around the sixth year and after, the posterior arch fuses to the anterior arch, creating the single first cervical vertebra (CITATIONS).</p>
-		</div>
-	</div>
-	<div class="col-lg-4">
-		<div class="estimate">
-			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+		<p>The atlas, or C1 vertebra, is the most superior vertebra that articulates with the occipital bone and allows rotary and pivoting movements of the head and neck.  Unlike other vertebrae, not all of the ossification centers of the atlas are present at birth.  Only the two lateral masses are present with the anterior arch appearing by the second year (Doherty and Heggeness 1994).</p>
+		<p>Between the fourth and sixth years, the two lateral masses fuse together posteriorly to form the posterior arch.  Around the sixth year and after, the posterior arch fuses to the anterior arch, creating the single first cervical vertebra (Doherty and Heggeness 1994).</p>
+
 		</div>
 	</div>
 	
+	<div class="col-lg-3">
+		<div class="estimate">
+			<p><b>Lateral masses fusion</b></p>
+			
+				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 4 years';">
+
+				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 4-6 years';">
+
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 6 years of age';">
+			
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+			
+			<br><br><p><b>Anterior arch fusion</b></p>
+			
+				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 6 years';">
+
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 6 years of age';">
+			
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+		</div>
+	</div>												       
 </section>
 	
 <section class="container">
 	<div class="col-lg-4"> 
-		<p>Pictures of axis and stuff</p>
+		<img src="img/pics/axis.png" alt="Axis - C2" style="width:100%; height:100%;">
+		<h6>Axis of a perinate (left) and a child (right). Note that the dens is missing due to preservation and recovery.</h6>
         </div>
             
 	<div class="col-lg-4">
 		<div class="description">
 		<h2><a name="axis1">The Axis</a></h2>
-		<p>The axis, or C2 vertebra, is made up of four separate primary ossification centers that are all present at birth: two halves of the <b>neural arches</b>, the <b>centrum</b>, and the <b>dens</b> (<b>odontoid process</b>).  Additionally, a secondary ossification center appears for the tip of the odontoid process around the second year of life called the <b>ossiculum terminale</b> (CITATIONS).</p>
-		<p>By the third year, the two neural arch halves fuse together to form one single neural arch (CITATION).  By the fourth year, the dens fuses to the neural arch to form the dentoneural portion (CITATION).  The centrum then fuses to the dentoneural portion between years four and six (CITATION).  By this point, the axis is in only two portions.  The ossiculum terminale fuses to the dens around year 12, thus completing the fusion of ossification centers for the axis (CITATIONS).</p>
+		<p>The axis, or C2 vertebra, is made up of four separate primary ossification centers that are all present at birth: two halves of the neural arches, the centrum, and the dens (odontoid process).  Additionally, a secondary ossification center appears for the tip of the odontoid process around the second year of life called the ossiculum terminale (Jenkins 1969).</p>
+		<p>By the third year, the two neural arch halves fuse together to form one single neural arch.  By the fourth year, the dens fuses to the neural arch to form the dentoneural portion.  The centrum then fuses to the dentoneural portion between years four and six (Piatt and Grissom 2011).  By this point, the axis is in only two portions.  The ossiculum terminale fuses to the dens around year 12, thus completing the fusion of ossification centers for the axis (Piatt and Grissom 2011).</p>
+
 		</div>
 	</div>
 	
 	<div class="col-lg-4">
 		<div class="estimate">
 			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+			
+			<p><b>Neural arch fusion</b></p>
+			
+				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 3 years';">
+
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='3 years or older';">
+			
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+			
+			<br><br><p><b>Fusion of dens to neural arch</b></p>
+			
+				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 4 years';">
+
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='4 years or older';">
+			
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+			
+			<br><br><p><b>Fusion of centrum to dentoneural portion</b></p>
+			
+				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 4 years';">
+
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='4-6 years +';">
+			
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+			
+			<br><br><p><b>Fusion of tip of dens</b></p>
+			
+				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 12 years';">
+
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='12 years or older';">
+			
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
 		</div>
 	</div>
 	
