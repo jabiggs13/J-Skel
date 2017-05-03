@@ -141,7 +141,7 @@ function topFunction() {
         <!-- Portfolio Item Row -->
         <section class="row">
 
-            <div class="col-md-4">
+            <div class="col-lg-7">
 		<?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg width="109.9mm" height="99.823mm" version="1.1" viewBox="0 0 109.89867 99.822663" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -239,231 +239,300 @@ function topFunction() {
   </g>
  </a>
 </svg>
-
-
-		</div>
+</div>
 		    
-	<div class="col-md-4">	    
-		<h2>Bones of the upper limbs</h2>
-		<ul>
-			<li><a href="#scapula1">Scapula</a></li>
-			<li><a href="#clavicle1">Clavicle</a></li>
-			<li><a href="#humerus1">Humerus</a></li>
-			<li><a href="#radius1">Radius</a></li>
-			<li><a href="#ulna">Ulna</a></li>
-			<li><a href="#hands1">Hands</a></li>
-		</ul>
-	</div>
-             <div class="col-md-4"> 
-			 <div class="fixed">
-             	<h3>Age Estimator</h3>
-                <ul>
-                    <li>The bones of the upper limbs used for juvenile ageing in this project are:
-                    <ul>
-			    <li><a href="clavicle.html">Clavicle</a></li>
-			    <li><a href="scapula.html">Scapula</a></li>
-			    <li><a href="humerus.html">Humerus</a></li>
-			    <li><a href="radius.html">Radius</a></li>
-			    <li><a href="ulna.html">Ulna</a></li>
-			    <li><a href="hands.html">Hands</a></li>
-                    </ul>
-                  
-			</li>           
-                   
-                    <li>Compare the bone/element you have to the aging methods provided</li>
-                    <li>Input your age range in the "Ages Estimator" box on the right</li>
-                    <li>Hit "Save Age Range" if you wish to look at another bone or element</li>
-                </ul>
-            </div>
+	<div class="col-md-3">
+		    <div class="description">
+                <h2>Bones of the upper limbs</h2>
+                    <p>The bones of the thorax used for juvenile aging in this project are:<p>
+                   	 <ul>
+			    <li><a href="#clavicle1">Clavicle</a></li>
+			    <li><a href="#scapula1">Scapula</a></li>
+			    <li><a href="#humerus1">Humerus</a></li>
+			    <li><a href="#radius1">Radius</a></li>
+			    <li><a href="#ulna1">Ulna</a></li>
+			    <li><a href="#hands1">Hands</a></li>
+                    	</ul> 
+		    <ol>
+                    <li>Compare the bone/element you have to the quick description of aging methods provided for that specific bone.</li>
+		    <li>Select the level of fusion or development for the bone provided in the <b>Age Estimator</b> box to receive an age estimation.</li>
+		    </ol>
+		    </div>
 		</div>
+		
+	<div class="col-md-1">
+		<div class="fixed">
+			<h5>Estimated Age Range:<input type="text" id="age-range" value="" size=33></h5>
+		</div>
+	</div>			
+</section>
+	    
+<br><br>
+	    
+<section class="container"> 
+	<div class="col-lg-4">
+		<img src="img/pics/clavicle.png" alt="Clavicle" style="width:100%; height:100%;">
+		<h6>Subadult clavicle.</h6>
+        </div>
+            
+	<div class="col-lg-3.5">
+		<div class="description">
+		<h2><a name="clavicle1">Clavicle</a></h2>
+		<p>Clavicle DESCRIPTION.</p>
+		</div>
+	</div>
+	
+	<div class="col-lg-2.5">
+		<div class="estimate">
+			<p><b>Medial epiphysis</b></p>
+			
+				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 2 years of age';">
+
+				<br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 2 - 4 years of age';">
+
+				<br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 4 years of age';">
+			
+				<br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+		</div>
+	</div>												       
+</section>
+
+<br><br>
+	    
+<section class="container"> 
+	<div class="col-lg-4"> 
+		<img src="img/pics/scapula.png" alt="Scapula" style="width:100%; height:100%;">
+		<h6>Scapula with the coracoid epiphysis.</h6>
+        </div>
+            
+	<div class="col-lg-3.5">
+		<div class="description">
+		<h2><a name="scapula1">Scapula</a></h2>
+		<p>Scapula description</div>
+	</div>
+	
+	<div class="col-lg-2.5">
+		<div class="estimate">
+			<p><b>Coracoid epiphysis</b></p>
+			
+				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 2 years of age';">
+
+				<br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 2 - 4 years of age';">
+
+				<br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 4 years of age';">
+			
+				<br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+		</div>
+	</div>	
+</section>
+			    
+
+<br><br>
+	    
+<section class="container"> 
+	<div class="col-lg-4"> 
+		<img src="img/pics/radius.png" alt="Radius" style="width:100%; height:100%;">
+		<h6>Juvenile radius showing unfused proximal and distal epiphyses.</h6>
+        </div>
+            
+	<div class="col-lg-3.5">
+		<div class="description">
+		<h2><a name="radius1">Radius</a></h2>
+		<p>Tibia desctiption</div>
+	</div>
+	
+	<div class="col-lg-2.5">
+		<div class="estimate">
+			<p><b>Proximal epiphysis - radial head</b></p>
+		
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+
+			<br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+			
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
+			
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+			
+			<p><b>Distal epiphysis</b></p>
+		
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+
+			<br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
+			
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+		</div>
+	</div>
+</section>	    
+	 
+<br><br>	    
+	    
+<section class="container"> 
+	<div class="col-lg-4"> 
+		<img src="img/pics/ulna.png" alt="Ulna" style="width:100%; height:100%;">
+			<h6>Subadult ulna with the distalepiphysis. Note: proximal (olecranon) epiphysis absent due to age of individual, preservation.</h6>
+        </div>
+            
+	<div class="col-lg-3.5">
+		<div class="description">
+		<h2><a name="ulna1">Ulna</a></h2>
+		<p>The occipital bone is made up of multiple ossification centers that appear in utero. Postnatal fusion of these ossification centers to each other are not all concurrent, but occur in a specific order and on a known schedule. Around birth, the occipital is usually split into four major components: pars squama (1), pars lateralis (2), and pars basilaris (1).</p>
+		<p>The pars squama is made up of separate ossification centers that begin to fuse in utero. At birth, fusion is not usually complete and the remnant of the sutura mendosa is present. The sutura mendosa runs infero-laterally and usually disappears by the end of the first year after birth (CITATIONS).</p>
+		<p>The pars laterales are the bilateral ossification centers that house the occipital condyles as well as make up the majority of the border of the foramen magnum. Fusion to the pars squama occurs first and takes place between the first and third years (CITATIONS).</p>
+		<p>The pars basilaris makes up the base of the occipital in adults. On the posterior aspect, fusion of the pars basilaris to the pars lateralis takes places between years 5 and 7 (CITATIONS). The anterior surface later fuses to the sphenoid at the spheno-occipital synchondrosis. Fusion of these surfaces tends to be highly variable and even different between the sexes. Fusion of the spheno-occipital synchorosis in females takes places between 11 and 16 years (CITATIONS) while in males, fusion occurs between 13 and 18 years (CITATIONS). As a result, relying on this single fusion center for age-at-death estimations is not entirely accurate but can be used to corroborate the age estimation based on other areas.</p>
+		</div>
+	</div>
+	
+	<div class="col-lg-2.5">
+		<div class="estimate">
+			<p><b>Olecranon epiphysis</b></p>
+					
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+
+			<br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
+			
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+			
+			<p><b>Distal epiphysis - styloid</b></p>
+		
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+
+			<br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
+			
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br>
+		</div>
+	</div>
+</section>
+
+<br><br>	    
+	    
+<section class="container"> 
+	<div class="col-lg-4"> 
+	<div class="photo">
+		<img src="img/pics/carpals.png" alt="Carpals" style="width:100%; height:100%;">
+	</div>
+        </div>
+            
+	<div class="col-lg-4">
+		<div class="description">
+		<h2><a name="hands1">Hands</a></h2>
+			<p>The sphenoid is another bone with multiple ossification centers that appear in fetal life.  Although there are at least five centers that ossify in utero, fusion of some of these occurs before birth (CITATIONS).</p>
+			<p>By birth some of them have already fused and normally three are present: (1) the body and lesser wings and (2) a right and a left greater wing fused to the pterygoid plates (CITATIONS).</p>
+		</div>
+	</div>
+	
+	<div class="col-lg-2">
+		<div class="estimate">
+			<p><b>Presence of carpals:</b></p>
+			
+			<input type="button" value="Scaphoid" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+
+			<br><br><input type="button" value="Lunate" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
+			
+			<br><input type="button" value="Triquetral" onclick="document.getElementById('age-range').value='_';">
+			
+			<br><input type="button" value="Pisiform" onclick="document.getElementById('age-range').value='Less than 11 (females) or 13 (males) years of age';">
+			
+			<br><input type="button" value="Trapezium" onclick="document.getElementById('age-range').value='Older than 16 (females) and 18 (males) years of age';">
+			
+			<br><input type="button" value="Trapezoid" onclick="document.getElementById('age-range').value='Older than 16 (females) and 18 (males) years of age';">
+			
+			<br><input type="button" value="Capitate" onclick="document.getElementById('age-range').value='_';">
+
+			<br><input type="button" value="Hamate" onclick="document.getElementById('age-range').value='_';">
+
+			<br>
+		</div>
+	</div>
 </section>
 
 <section class="container"> 
 	<div class="col-lg-4"> 
-		<p>Pictures of the scapula</p>
+	<div class="photo">
+		<img src="img/pics/metacarpals.png" alt="Metacarpals" style="width:100%; height:100%">
+		</div>
         </div>
             
 	<div class="col-lg-4">
 		<div class="description">
-		<h2><a name="scapula1">The Scapula</a></h2>
-		<p>In adults and later juvenility, the frontal is one single midline bone. During prenatal growth, the frontal ossifies and develops as two halves separated by the metopic suture. Studies have shown (CITATIONS) that the metopic sutures normally fuses to create one single frontal bone between the ages of 2 and 4 years.</p>
+		<h2>Metacarpals</h2>
+			<p>The sphenoid is another bone with multiple ossification centers that appear in fetal life.  Although there are at least five centers that ossify in utero, fusion of some of these occurs before birth (CITATIONS).</p>
+			<p>By birth some of them have already fused and normally three are present: (1) the body and lesser wings and (2) a right and a left greater wing fused to the pterygoid plates (CITATIONS).</p>
 		</div>
 	</div>
 	
-	<div class="col-lg-4">
+	<div class="col-lg-2">
 		<div class="estimate">
-			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+			<p><b>Fusion of base to 1st metacarpal:</b></p>
 			
-			<button onclick="myFunction()">Unfused</button>
-			<p id="unfused"></p>
-			    
-	    		<button onclick="myFunction()">Fusing</button>
-			<p id="fusing"></p>
-			    
-			<button onclick="myFunction()">Completely Fused</button>
-			<p id="fused"></p>
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
+			
+			<br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='_';">
+			
+			<br><p><b>Fusion of heads to metacarpals 2-5</b></p>
+			
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 11 (females) or 13 (males) years of age';">
+			
+			<br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Older than 16 (females) and 18 (males) years of age';">
+			
+			<br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 16 (females) and 18 (males) years of age';">
+			
+			<br>
 		</div>
 	</div>
-</section>
+</section>	
+
 
 <section class="container"> 
 	<div class="col-lg-4"> 
-		<p>Pictures of clavicle</p>
+	<div class="photo">
+		<img src="img/pics/fingers.png" alt="Manual phalanges" style="width:100%; height:100%">
+		</div>
         </div>
             
 	<div class="col-lg-4">
 		<div class="description">
-		<h2><a name="clavicle1">The Clavicle</a></h2>
-		<p>The components and ossification of the temporal bone are very complex so only two major centers will be addressed here.  At birth, the temporal bone is generally separated into two main ossification centers: the pars squama/temporal squama and the pars petrosa (the petrous portions in adults).</p>
-		<p>The temporal squama and pars petrosa usually fuse together to form one single temporal bone within the first year of life (CITATION).</p>
+		<h2>Manual phalanges</h2>
+			<p>The sphenoid is another bone with multiple ossification centers that appear in fetal life.  Although there are at least five centers that ossify in utero, fusion of some of these occurs before birth (CITATIONS).</p>
+			<p>By birth some of them have already fused and normally three are present: (1) the body and lesser wings and (2) a right and a left greater wing fused to the pterygoid plates (CITATIONS).</p>
 		</div>
 	</div>
 	
-	<div class="col-lg-4">
+	<div class="col-lg-2">
 		<div class="estimate">
-			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+			<p><b>Fusion of bases to proximal phalanges</b></p>
 			
-			<button onclick="myFunction()">Unfused</button>
-			<p id="unfused"></p>
-			    
-	    		<button onclick="myFunction()">Fusing</button>
-			<p id="fusing"></p>
-			    
-			<button onclick="myFunction()">Completely Fused</button>
-			<p id="fused"></p>
-		</div>
-	</div>
-</section>	    
-	    
-<section class="container"> 
-	<div class="col-lg-4"> 
-		<p>Pictures of humerus bone</p>
-        </div>
-            
-	<div class="col-lg-4">
-		<div class="description">
-		<h2><a name="humerus1">The Humerus</a></h2>
-		<p>The occipital bone is made up of multiple ossification centers that appear in utero. Postnatal fusion of these ossification centers to each other are not all concurrent, but occur in a specific order and on a known schedule. Around birth, the occipital is usually split into four major components: pars squama (1), pars lateralis (2), and pars basilaris (1).</p>
-		<p>The pars squama is made up of separate ossification centers that begin to fuse in utero. At birth, fusion is not usually complete and the remnant of the sutura mendosa is present. The sutura mendosa runs infero-laterally and usually disappears by the end of the first year after birth (CITATIONS).</p>
-		<p>The pars laterali (PLURAL???) are the bilateral ossification centers that house the occipital condyles as well as make up the majority of the border of the foramen magnum. Fusion to the pars squama occurs first and takes place between the first and third years (CITATIONS).</p>
-		<p>The pars basilaris makes up the base of the occipital in adults. On the posterior aspect, fusion of the pars basilaris to the pars lateralis takes places between years 5 and 7 (CITATIONS). The anterior surface later fuses to the sphenoid at the spheno-occipital synchondrosis. Fusion of these surfaces tends to be highly variable and even different between the sexes. Fusion of the spheno-occipital synchorosis in females takes places between 11 and 16 years (CITATIONS) while in males, fusion occurs between 13 and 18 years (CITATIONS). As a result, relying on this single fusion center for age-at-death estimations is not entirely accurate but can be used to corroborate the age estimation based on other areas.</p>
-		</div>
-	</div>
-	
-	<div class="col-lg-4">
-		<div class="estimate">
-			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
 			
-			<button onclick="myFunction()">Unfused</button>
-			<p id="unfused"></p>
-			    
-	    		<button onclick="myFunction()">Fusing</button>
-			<p id="fusing"></p>
-			    
-			<button onclick="myFunction()">Completely Fused</button>
-			<p id="fused"></p>
-		</div>
-	</div>
-</section>	    
-        
-<section class="container"> 
-	<div class="col-lg-4"> 
-		<p>Pictures of radius</p>
-        </div>
-            
-	<div class="col-lg-4">
-		<div class="description">
-		<h2><a name="radius1">The Radius</a></h2>
-		<p>The occipital bone is made up of multiple ossification centers that appear in utero. Postnatal fusion of these ossification centers to each other are not all concurrent, but occur in a specific order and on a known schedule. Around birth, the occipital is usually split into four major components: pars squama (1), pars lateralis (2), and pars basilaris (1).</p>
-		<p>The pars squama is made up of separate ossification centers that begin to fuse in utero. At birth, fusion is not usually complete and the remnant of the sutura mendosa is present. The sutura mendosa runs infero-laterally and usually disappears by the end of the first year after birth (CITATIONS).</p>
-		<p>The pars laterali (PLURAL???) are the bilateral ossification centers that house the occipital condyles as well as make up the majority of the border of the foramen magnum. Fusion to the pars squama occurs first and takes place between the first and third years (CITATIONS).</p>
-		<p>The pars basilaris makes up the base of the occipital in adults. On the posterior aspect, fusion of the pars basilaris to the pars lateralis takes places between years 5 and 7 (CITATIONS). The anterior surface later fuses to the sphenoid at the spheno-occipital synchondrosis. Fusion of these surfaces tends to be highly variable and even different between the sexes. Fusion of the spheno-occipital synchorosis in females takes places between 11 and 16 years (CITATIONS) while in males, fusion occurs between 13 and 18 years (CITATIONS). As a result, relying on this single fusion center for age-at-death estimations is not entirely accurate but can be used to corroborate the age estimation based on other areas.</p>
-		</div>
-	</div>
-	
-	<div class="col-lg-4">
-		<div class="estimate">
-			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+			<br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='_';">
 			
-			<button onclick="myFunction()">Unfused</button>
-			<p id="unfused"></p>
-			    
-	    		<button onclick="myFunction()">Fusing</button>
-			<p id="fusing"></p>
-			    
-			<button onclick="myFunction()">Completely Fused</button>
-			<p id="fused"></p>
-		</div>
-	</div>
-</section>	    
-            
-<section class="container"> 
-	<div class="col-lg-4"> 
-		<p>Pictures of the ulna</p>
-        </div>
-            
-	<div class="col-lg-4">
-		<div class="description">
-		<h2><a name="ulna">The Ulna</a></h2>
-		<p>The occipital bone is made up of multiple ossification centers that appear in utero. Postnatal fusion of these ossification centers to each other are not all concurrent, but occur in a specific order and on a known schedule. Around birth, the occipital is usually split into four major components: pars squama (1), pars lateralis (2), and pars basilaris (1).</p>
-		<p>The pars squama is made up of separate ossification centers that begin to fuse in utero. At birth, fusion is not usually complete and the remnant of the sutura mendosa is present. The sutura mendosa runs infero-laterally and usually disappears by the end of the first year after birth (CITATIONS).</p>
-		<p>The pars laterali (PLURAL???) are the bilateral ossification centers that house the occipital condyles as well as make up the majority of the border of the foramen magnum. Fusion to the pars squama occurs first and takes place between the first and third years (CITATIONS).</p>
-		<p>The pars basilaris makes up the base of the occipital in adults. On the posterior aspect, fusion of the pars basilaris to the pars lateralis takes places between years 5 and 7 (CITATIONS). The anterior surface later fuses to the sphenoid at the spheno-occipital synchondrosis. Fusion of these surfaces tends to be highly variable and even different between the sexes. Fusion of the spheno-occipital synchorosis in females takes places between 11 and 16 years (CITATIONS) while in males, fusion occurs between 13 and 18 years (CITATIONS). As a result, relying on this single fusion center for age-at-death estimations is not entirely accurate but can be used to corroborate the age estimation based on other areas.</p>
-		</div>
-	</div>
-	
-	<div class="col-lg-4">
-		<div class="estimate">
-			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+			<br><p><b>Fusion of bases to intermediate and distal phalanges</b></p>
 			
-			<button onclick="myFunction()">Unfused</button>
-			<p id="unfused"></p>
-			    
-	    		<button onclick="myFunction()">Fusing</button>
-			<p id="fusing"></p>
-			    
-			<button onclick="myFunction()">Completely Fused</button>
-			<p id="fused"></p>
-		</div>
-	</div>
-</section>     
-	    
-<section class="container"> 
-	<div class="col-lg-4"> 
-		<p>Pictures of hands</p>
-        </div>
-            
-	<div class="col-lg-4">
-		<div class="description">
-		<h2><a name="hands1">The Hands</a></h2>
-		<p>The occipital bone is made up of multiple ossification centers that appear in utero. Postnatal fusion of these ossification centers to each other are not all concurrent, but occur in a specific order and on a known schedule. Around birth, the occipital is usually split into four major components: pars squama (1), pars lateralis (2), and pars basilaris (1).</p>
-		<p>The pars squama is made up of separate ossification centers that begin to fuse in utero. At birth, fusion is not usually complete and the remnant of the sutura mendosa is present. The sutura mendosa runs infero-laterally and usually disappears by the end of the first year after birth (CITATIONS).</p>
-		<p>The pars laterali (PLURAL???) are the bilateral ossification centers that house the occipital condyles as well as make up the majority of the border of the foramen magnum. Fusion to the pars squama occurs first and takes place between the first and third years (CITATIONS).</p>
-		<p>The pars basilaris makes up the base of the occipital in adults. On the posterior aspect, fusion of the pars basilaris to the pars lateralis takes places between years 5 and 7 (CITATIONS). The anterior surface later fuses to the sphenoid at the spheno-occipital synchondrosis. Fusion of these surfaces tends to be highly variable and even different between the sexes. Fusion of the spheno-occipital synchorosis in females takes places between 11 and 16 years (CITATIONS) while in males, fusion occurs between 13 and 18 years (CITATIONS). As a result, relying on this single fusion center for age-at-death estimations is not entirely accurate but can be used to corroborate the age estimation based on other areas.</p>
-		</div>
-	</div>
-	
-	<div class="col-lg-4">
-		<div class="estimate">
-			<h2>Age Estimator</h2>
-			<p>Buttons and stuff</p>
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 11 (females) or 13 (males) years of age';">
 			
-			<button onclick="myFunction()">Unfused</button>
-			<p id="unfused"></p>
-			    
-	    		<button onclick="myFunction()">Fusing</button>
-			<p id="fusing"></p>
-			    
-			<button onclick="myFunction()">Completely Fused</button>
-			<p id="fused"></p>
+			<br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Older than 16 (females) and 18 (males) years of age';">
+			
+			<br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 16 (females) and 18 (males) years of age';">
+			
+			<br>
 		</div>
 	</div>
-</section>	    
+</section>	  
         <!-- /.row -->
 
         <!-- Related Projects Row -->
