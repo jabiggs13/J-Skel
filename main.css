@@ -1,3 +1,7 @@
+h7{
+  visibility: hidden;
+}
+
 div.intro{
   border: 7px solid #000000;
   background-color: 444f60;
