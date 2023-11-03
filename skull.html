@@ -214,9 +214,7 @@
 		    </div>
 		</div>
 		
-	<div class="col-md-1">
-		<br><br><br><br><br><br><br><div class="fixed">
-		<h5>Estimated Age Range:<input type="text" id="age-range" value="" size=33></h5>
+	
 		</div>
 	</div>			
 </section>
@@ -243,14 +241,16 @@
 		<br><br><br><br><div class="estimate">
 			<p><b>Metopic Suture</b></p>
 			
-				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 2 years';">
+				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range1').value='Less than 2 years';">
 
-				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 2 - 4 years';">
+				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range1').value='Around 2 - 4 years';">
 
-				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 4 years';">
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range1').value='Older than 4 years';">
 			
-				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
-			<br>
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range1').value=' ';"
+                
+                <br><h5>Estimated Age Range:<input type="text" id="age-range1" value="" size="20"></h5> 
+			
 		</div>
 	</div>												       
 </section>
@@ -278,12 +278,15 @@
 		<br><br><br><br><div class="estimate">
 			<p><b>Fusion of pars squama to pars petrosa</b></p>
 		
-			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range2').value='Less than 1 year of age';">
 
-			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range2').value='Older than 1 year of age';">
 			
-			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
-			<br>
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range2').value=' ';">
+
+            <br><h5>Estimated Age Range:<input type="text" id="age-range2" value="" size="20"></h5>
+
+			
 		</div>
 	</div>
 </section>	    
@@ -316,34 +319,37 @@
 		<br><br><br><br><div class="estimate">
 			<p><b>Sutura Mendosa</b></p>
 			
-			<input type="button" value="Present" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+			<input type="button" value="Present" onclick="document.getElementById('age-range3').value='Less than 1 year of age';">
 
-			<br><br><input type="button" value="Absent/Complete" onclick="document.getElementById('age-range').value='Greater than 1 year';">
+			<br><br><input type="button" value="Absent/Complete" onclick="document.getElementById('age-range3').value='Greater than 1 year';">
 		
-			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
-			<br>
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range3').value=' ';">
 			
+            <br><h5>Estimated Age Range:<input type="text" id="age-range3" value="" size="20"></h5>
+
 			<br><p><b>Fusion of pars laterales to pars squama</b></p>
 			
-			<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year (can be up to 3)';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range4').value='<1 yr (can be up to 3)';">
 
-			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Between 1 and 3 years';">
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range4').value='Between 1 and 3 years';">
 			
-			<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 3 years';">
+			<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range4').value='Older than 3 years';">
 		
-			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
-			<br>
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range4').value=' ';">
 			
+            <br><h5>Estimated Age Range:<input type="text" id="age-range4" value="" size="20"></h5>
+
 			<br><p><b>Fusion of pars basilaris to pars laterales</b></p>
 			
-			<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 5 years (can be up to 7)';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range5').value='<5 years (can be up to 7)';">
 
-			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Between 5 and 7 years';">
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range5').value='Between 5 and 7 years';">
 			
-			<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 7 years';">
+			<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range5').value='Older than 7 years';">
 		
-			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
-			<br>
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range5').value=' ';">
+
+			<br><h5>Estimated Age Range:<input type="text" id="age-range5" value="" size="20"></h5>
 			
 		</div>
 	</div>
@@ -378,23 +384,26 @@
 		<br><br><br><br><div class="estimate">
 			<p><b>Fusion of greater wings to lesser wings and body</b></p>
 			
-			<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range6').value='<1 year of age';">
 
-			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range6').value='>1 year of age';">
 			
-			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range6').value=' ';">
+
+            <br><h5>Estimated Age Range:<input type="text" id="age-range6" value="" size="20"></h5>
 			
-			<br><br><p><b>Closure of spheno-occipital synchondrosis</b></p>
+			<br><p><b>Closure of spheno-occipital synchondrosis</b></p>
 			<p><small>*Note: this area of fusion is highly variable</small></p>
 			
-			<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 11 (F) or 13 (M) years';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range7').value='<11 (F) or 13 (M) years';">
 			
-			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 16 (F) and 18 (M) years';">
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range7').value='>16 (F) and 18 (M) years';">
 			
-			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range7').value=' ';">
+            
+            <br><h5>Estimated Age Range:<input type="text" id="age-range7" value="" size="20"></h5>
 			
-			<br>
-		</div>
+			</div>
 	</div>
 </section>	    
 
@@ -420,12 +429,12 @@
 		<br><br><br><br><div class="estimate">
 			<p><b>Mandibular sypmhysis</b></p>
 			
-			<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 1 year of age';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range8').value='<1 year of age';">
 
-			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 1 year of age';">
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range8').value='>1 year of age';">
 			
-			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
-			<br>
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range8').value=' ';">
+			<br><h5>Estimated Age Range:<input type="text" id="age-range8" value="" size="20"></h5>
 		</div>
 	</div>
 </section>
