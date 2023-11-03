@@ -171,11 +171,6 @@
 		    </ol>
 		    </div>
 		</div>
-		
-	<div class="col-md-1">
-		<br><br><br><br><br><br><br><div class="fixed">
-		<h5>Estimated Age Range:<input type="text" id="age-range" value="" size=33></h5>
-		</div>
 	</div>			
 </section>
 
@@ -193,7 +188,7 @@
 		<h6>Oblique view of a right ilium showing a nearly complete fusion of the anterior inferior iliac spine and a fusing iliac crest.</h6>
         </div>
             
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<div class="description">
 			<h7><a name="oscoxa1">os coxa</a></h7>
 			<br><br><br><br><h2><b>Os coxa</b></h2>
@@ -214,47 +209,52 @@
 		<br><br><br><br><div class="estimate">
 			<p><b>Fusion of ischiopubic ramus</b></p>
 			
-				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 5 years';">
+				<input type="button" value="Unfused" onclick="document.getElementById('age-range1').value='<5 years';">
 
-				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 5-8 years';">
+				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range1').value='5-8 years';">
 
-				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 8 years';">
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range1').value='>8 years';">
 			
-				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
-			<br>
-			
-			<br><br><p><b>Fusion of all three bones at the acetabulum</b></p>
-			
-				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 14 years';">
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range1').value=' ';">
 
-				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 14-18 years';">
+                <br><h5>Estimated Age Range:<input type="text" id="age-range1" value="" size="20"></h5>
+                		
+			<br><p><b>Fusion of all three bones at the acetabulum</b></p>
+			
+				<input type="button" value="Unfused" onclick="document.getElementById('age-range2').value='<14 years';">
 
-				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 18 years';">
-			
-				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
-			<br>
-			
-			<br><br><p><b>Fusion of anterior inferior iliac spine</b></p>
-			
-				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 14 years';">
+				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range2').value='14-18 years';">
 
-				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 14-18 years';">
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range2').value='>18 years';">
+			
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range2').value=' ';">
+			
+                <br><h5>Estimated Age Range:<input type="text" id="age-range2" value="" size="20"></h5>
+			
+			<br><p><b>Fusion of anterior inferior iliac spine</b></p>
+			
+				<input type="button" value="Unfused" onclick="document.getElementById('age-range3').value='<14 years';">
 
-				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 18 years';">
-			
-				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
-			<br>
-			
-			<br><br><p><b>Fusion of iliac crest</b></p>
-			
-				<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 12-14 years';">
+				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range3').value='14-18 years';">
 
-				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 15-21 years';">
-
-				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 22 years';">
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range3').value='>18 years';">
 			
-				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
-			<br>
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range3').value=' ';">
+			
+                <br><h5>Estimated Age Range:<input type="text" id="age-range3" value="" size="20"></h5>
+			
+			<br><p><b>Fusion of iliac crest</b></p>
+			
+				<input type="button" value="Unfused" onclick="document.getElementById('age-range4').value='<12-14 years';">
+
+				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range4').value='15-21 years';">
+
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range4').value='>22 years';">
+			
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range4').value=' ';">
+
+                <br><h5>Estimated Age Range:<input type="text" id="age-range4" value="" size="20"></h5>
+                
 		</div>
 	</div>												       
 </section>
@@ -273,7 +273,7 @@
 		<h6>Superior view of sacral segment S1 with fusing lateral elements to the centrum.</h6>
         </div>
             
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<div class="description">
 		<h7><a name="sacrum1">Sacrum</a></h7>
 			<br><br><br><br><h2><b>Sacrum</b></h2>
@@ -290,25 +290,28 @@
 		<br><br><br><br><div class="estimate">
 			<p><b>Fusion of sacral elements (within a single segment)</b></p>
 			
-				<br><input type="button" value="All unfused" onclick="document.getElementById('age-range').value='Less than 2 years';">
+				<input type="button" value="All unfused" onclick="document.getElementById('age-range5').value='<2 years';">
 
-				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 2-6 years';">
+				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range5').value='2-6 years';">
 
-				<br><br><input type="button" value="Complete fusion of 1 seg." onclick="document.getElementById('age-range').value='Older than 6 years';">
+				<br><br><input type="button" value="Complete fusion of 1 seg." onclick="document.getElementById('age-range5').value='>6 years';">
 			
-				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
-			<br>
-			
-			<br><br><p><b>Fusion of sacral segments</b></p>
-			
-				<br><input type="button" value="All 5 unfused" onclick="document.getElementById('age-range').value='Between 6 and 11 years';">
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range5').value=' ';">
 
-				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 11-15 years';">
-
-				<br><br><input type="button" value="Complete fusion - 1 element" onclick="document.getElementById('age-range').value='Older than 16-18 years';">
+                <br><h5>Estimated Age Range:<input type="text" id="age-range5" value="" size="20"></h5>			
 			
-				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range').value='_';">
-			<br>
+			<br><p><b>Fusion of sacral segments</b></p>
+			
+				<input type="button" value="All 5 unfused" onclick="document.getElementById('age-range6').value='6-11 years';">
+
+				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range6').value='11-15 years';">
+
+				<br><br><input type="button" value="Complete fusion - 1 element" onclick="document.getElementById('age-range6').value='>16-18 years';">
+			
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range6').value=' ';">
+
+                <br><h5>Estimated Age Range:<input type="text" id="age-range6" value="" size="20"></h5>
+			
 		</div>
 	</div>	
 </section>  
