@@ -195,11 +195,6 @@
 		    </ol>
 		    </div>
 		</div>
-		
-	<div class="col-md-1">
-		<br><br><br><br><br><br><br><div class="fixed">
-			<h5>Estimated Age Range:<input type="text" id="age-range" value="" size=33></h5>
-		</div>
 	</div>			
 </section>
 	    
@@ -213,7 +208,7 @@
 		<h6>Juvenile femur with unfused epiphyses.</h6>
         </div>
             
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<div class="description">
 			<h7><a name="femur1"><b>Femur</b></a></h7>
 			<br><br><br><br><h2>Femur</h2>
@@ -228,40 +223,54 @@
 		<br><br><br><br><div class="estimate">
 			<p><b>Femoral head</b></p>
 			
-				<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 12 years of age';">
+				<input type="button" value="Unfused" onclick="document.getElementById('age-range1').value='<12 years of age';">
 
-				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='12-16 years (F);14-19 years (M)';">
+				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range1').value='12-16 (F); 14-19 (M)';">
 
-				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 16 (F) or 19 (M) years';">
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range1').value='>16 (F) or 19 (M) years';">
+
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range1').value=' ';">
+
+				<br><h5>Estimated Age Range:<input type="text" id="age-range1" value="" size="20"></h5>
 			
-			<br>
-			<br><br><p><b>Greater trochanter</b></p>
 			
-				<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 14 years of age';">
-
-				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='14-16 years(F); 16-18 years (M)';">
-
-				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 18 (F) or 19(M)';">
+			<br><p><b>Greater trochanter</b></p>
 			
-			<br>
-			<br><br><p><b>Lesser trochanter</b></p>
-			
-				<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 16 years';">
+				<input type="button" value="Unfused" onclick="document.getElementById('age-range2').value='<14 years';">
 
-				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='16-17 years (M)';">
+				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range2').value='14-16 (F); 16-18 (M)';">
 
-				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 17 years';">
-			
-			<br>
-			<br><br><p><b>Distal epiphysis - condyles</b></p>
-			
-				<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 14 (F)or 16 (M)';">
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range2').value='>18 (F) or 19(M)';">
 
-				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='14-18 (F) or 16-20 (M) - 4 years of age';">
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range2').value=' ';">
 
-				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 20y';">
+				<br><h5>Estimated Age Range:<input type="text" id="age-range2" value="" size="20"></h5>
 			
-			<br>
+			<br><p><b>Lesser trochanter</b></p>
+			
+				<input type="button" value="Unfused" onclick="document.getElementById('age-range3').value='<16 years';">
+
+				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range3').value='16-17 years (M)';">
+
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range3').value='>17 years';">
+
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range3').value=' ';">
+
+				<br><h5>Estimated Age Range:<input type="text" id="age-range3" value="" size="20"></h5>
+			
+			<br><p><b>Distal epiphysis - condyles</b></p>
+			
+				<input type="button" value="Unfused" onclick="document.getElementById('age-range4').value='<14 (F) or 16 (M)';">
+
+				<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range4').value='14-18 (F); 16-20 (M)';">
+
+				<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range4').value='>20 years';">
+
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range4').value=' ';">
+
+				<br><h5>Estimated Age Range:<input type="text" id="age-range4" value="" size="20"></h5>
+			
+			
 		</div>
 	</div>												       
 </section>
@@ -276,13 +285,26 @@
 		<h6>Patellae from an older child (left) and one from a younger child (right).</h6>
         </div>
             
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<div class="description">
 		<h7><a name="patella1">Patella</a></h7>
 			<br><br><br><br><h2><b>Patella</b></h2>
-			<p>Since the patella has no separate ossification centers that fuse to it, it’s best to look at the overall morphology.  The patella appears between 1½ and 3½ years.  By 4-5 years old, it is still very course and tough, but it does begin to take shape.  By puberty, it has essentially taken on its adult form (Prakash et al. 1979).</p>
+			<p>Since the patella has no separate ossification centers that fuse to it, it’s best to look at the overall morphology.  The patella appears between 1½ and 3½ years.  By 4-5 years old, it is still very coarse and tough, but it does begin to take shape.  By puberty, it has essentially taken on its adult form (Prakash et al. 1979).</p>
 		</div>
-	</div>	
+	</div>
+	<div class="col-lg-3">
+		<br><br><br><br><div class="estimate">
+			<p><b>Patella Presentation</b></p>
+			
+				<input type="button" value="Absent" onclick="document.getElementById('age-range5').value='<1.5 tp to 3.5 years';">
+
+				<br><br><input type="button" value="Small and Coarse" onclick="document.getElementById('age-range5').value='4/5 - 11/12 yrs';">
+
+				<br><br><input type="button" value="Adult Shape" onclick="document.getElementById('age-range5').value='post-puberty: 12-14 yrs';">
+
+				<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range5').value=' ';">
+
+				<br><h5>Estimated Age Range:<input type="text" id="age-range5" value="" size="20"></h5>	
 </section>
 			    
 <br>
@@ -295,7 +317,7 @@
 		<h6>Juvenile tibia showing unfused proximal and distal epiphyses.</h6>
         </div>
             
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<div class="description">
 		<h7><a name="tibia1">Tibia</a></h7>
 			<br><br><br><br><h2><b>Tibia</b></h2>
@@ -310,23 +332,28 @@
 		<br><br><br><br><div class="estimate">
 			<p><b>Proximal epiphysis</b></p>
 		
-			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 13 years';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range6').value='<13 years';">
 
-			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='13-17 (F) and 15-19 (M)';">
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range6').value='13-17 (F); 15-19 (M)';">
 			
-			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 17 (F) or 19 (M)';">
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range6').value='>17 (F); >19 (M)';">
 			
-			<br>
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range6').value=' ';">
+
+				<br><h5>Estimated Age Range:<input type="text" id="age-range6" value="" size="20"></h5>
 			
-			<br><br><p><b>Distal epiphysis</b></p>
+			<br><p><b>Distal epiphysis</b></p>
 		
-			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 14 years';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range7').value='<14 years';">
 
-			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='14-16 (F) and 15-18 (M)';">
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range7').value='14-16 (F); 15-18 (M)';">
 
-			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 16 (F) or 18 (M)';">
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range7').value='>16 (F); >18 (M)';">
 			
-			<br>
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range7').value=' ';">
+
+			<br><h5>Estimated Age Range:<input type="text" id="age-range7" value="" size="20"></h5>
+
 		</div>
 	</div>
 </section>	    
@@ -341,7 +368,7 @@
 			<h6>Juvenile fibula with the distal epiphysis. Note: proximal (head of the fibula) epiphysis is absent due to preservation of the remains.</h6>
         </div>
             
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<div class="description">
 		<h7><a name="fibula1">Fibula</a></h7>
 			<br><br><br><br><h2><b>Fibula</b></h2>
@@ -356,23 +383,28 @@
 		<br><br><br><br><div class="estimate">
 			<p><b>Proximal epiphysis - head</b></p>
 					
-			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 12 (F) and 15 (M)';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range8').value='<12 (F); <15 (M)';">
 
-			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 12-17(F) and 15-20 (M)';">
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range8').value='12-17(F); 15-20 (M)';">
 
-			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='Older than 17 (F) and 20 (M)';">
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range8').value='>17 (F); >20 (M)';">
 			
-			<br>
-			
-			<br><br><p><b>Distal epiphysis - lateral malleolus</b></p>
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range8').value=' ';">
+
+			<br><h5>Estimated Age Range:<input type="text" id="age-range8" value="" size="20"></h5>
+
+			<br><p><b>Distal epiphysis - lateral malleolus</b></p>
 		
-			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 12 years';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range9').value='<12 years';">
 
-			<br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='12-15(F) and 15-18 (M)';">
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range9').value='12-15(F); 15-18 (M)';">
 
-			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range').value='older than 18 years';">
+			<br><br><input type="button" value="Complete Fusion" onclick="document.getElementById('age-range9').value='>18 years';">
+
+			<br><br><input type="button" value="Clear Age Range" onclick="document.getElementById('age-range9').value=' ';">
+
+				<br><h5>Estimated Age Range:<input type="text" id="age-range9" value="" size="20"></h5>
 			
-			<br>
 		</div>
 	</div>
 </section>
@@ -388,7 +420,7 @@
 	</div>
         </div>
             
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<div class="description">
 		<h7><a name="feet1">Feet</a></h7>
 			<br><br><br><br><h2><b>Feet</b></h2>
@@ -401,22 +433,21 @@
 		<br><br><br><br><div class="estimate">
 			<p><b>Presence of tarsals:</b></p>
 			
-			<input type="button" value="Calcaneus" onclick="document.getElementById('age-range').value='Present at birth';">
+			<input type="button" value="Calcaneus" onclick="document.getElementById('age-range10').value='Present at birth';">
 
-			<br><br><input type="button" value="Talus" onclick="document.getElementById('age-range').value='Present at birth';">
+			<br><br><input type="button" value="Talus" onclick="document.getElementById('age-range10').value='Present at birth';">
 			
-			<br><br><input type="button" value="Cuboid" onclick="document.getElementById('age-range').value='Appears after 1-3 months';">
+			<br><br><input type="button" value="Cuboid" onclick="document.getElementById('age-range10').value='Appears after 1-3 months';">
 			
-			<br><br><input type="button" value="Navicular" onclick="document.getElementById('age-range').value='Appears2-3 years (F) and 3-4 years (M)';">
+			<br><br><input type="button" value="Navicular" onclick="document.getElementById('age-range10').value='Appears2-3 years (F) and 3-4 years (M)';">
 			
-			<br><br><input type="button" value="Medial (first) cuneiform" onclick="document.getElementById('age-range').value='Appears 2-4 years';">
+			<br><br><input type="button" value="Medial (first) cuneiform" onclick="document.getElementById('age-range10').value='Appears 2-4 years';">
 			
-			<br><br><input type="button" value="Middle (second) cuneiform" onclick="document.getElementById('age-range').value='Appears 2-4 years';">
+			<br><br><input type="button" value="Middle (second) cuneiform" onclick="document.getElementById('age-range10').value='Appears 2-4 years';">
 			
-			<br><br><input type="button" value="Lateral (third) cuneiform" onclick="document.getElementById('age-range').value='Appears 3-6 years';">
-	
+			<br><br><input type="button" value="Lateral (third) cuneiform" onclick="document.getElementById('age-range10').value='Appears 3-6 years';">
 
-			<br>
+			<br><h5>Estimated Age Range:<input type="text" id="age-range10" value="" size="20"></h5>
 		</div>
 	</div>
 </section>
@@ -433,7 +464,7 @@
 		</div>
         </div>
             
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<div class="description">
 		<h2>Metatarsals</h2>
 		<p>Like in the metacarpals in the hand, ossification for the metatarsals on digits 2-5 is different than for the first metacarpal.  All metatarsal bodies are present at birth, however the base of the first metatarsal doesn’t appear until the individual is 2-3 years old, with fusion not complete until 13-15 years (female) or 16-18 years (male) (Davies et al. 2013).</p>
@@ -442,28 +473,28 @@
 		</div>
 	</div>
 	
-	<div class="col-lg-2">
+	<div class="col-lg-3">
 		<div class="estimate">
 			<p><b>Fusion of base to 1st metatarsal:</b></p>
 			
-			<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 13 years';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range11').value='<13 years';">
 
-			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='13-15 years (F) and 16-18 years (M)';">
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range11').value='13-15 (F); 16-18 (M)';">
 			
-			<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='15+ (F)and 18+ (M)';">
+			<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range11').value='15+ (F)and 18+ (M)';">
 			
+			<br><h5>Estimated Age Range:<input type="text" id="age-range11" value="" size="20"></h5>
 
-			<br><br><p><b>Fusion of heads to metatarsals 2-5</b></p>
+			<br><p><b>Fusion of heads to metatarsals 2-5</b></p>
 			
-			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 11 (F) or 14 (M) years';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range12').value='<11 (F); < 14 (M) years';">
 			
-			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='11-13 (F) and 14-16 (M)';">
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range12').value='11-13 (F); 14-16 (M)';">
 			
-			<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 13 (F) and 16 (M)';">
-					
+			<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range12').value='>13 (F); >16 (M)';">
+			
+			<br><h5>Estimated Age Range:<input type="text" id="age-range12" value="" size="20"></h5>
 
-			
-			<br>
 		</div>
 	</div>
 </section>	
@@ -481,7 +512,7 @@
 		</div>
         </div>
             
-	<div class="col-lg-3">
+	<div class="col-lg-4">
 		<div class="description">
 		<h2>Pedal phalanges</h2>
 		<p>The appearance and fusion of pedal phalanges is very similar to manual phalanges.  All of the phalanges are present at birth, but have somewhat different appearance and fusion times.  </p>
@@ -490,26 +521,28 @@
 		</div>
 	</div>
 	
-	<div class="col-lg-2">
+	<div class="col-lg-3">
 		<div class="estimate">
 			<p><b>Fusion of bases to proximal phalanges</b></p>
 			
-			<input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 13';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range13').value='<13';">
 
-			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 13-15';">
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range13').value='Around 13-15';">
 			
-			<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='Older than 15 ';">
-			
+			<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range13').value='>15 ';">
+
+			<br><h5>Estimated Age Range:<input type="text" id="age-range13" value="" size="20"></h5>			
 
 			<br><p><b>Fusion of bases to intermediate and distal phalanges</b></p>
 			
-			<br><input type="button" value="Unfused" onclick="document.getElementById('age-range').value='Less than 11 (F) and 14 (M)';">
+			<input type="button" value="Unfused" onclick="document.getElementById('age-range14').value='<11 (F); <14 (M)';">
 			
-			<br><input type="button" value="Fusing" onclick="document.getElementById('age-range').value='Around 11-13 (F) and 14-16 (M)';">
+			<br><br><input type="button" value="Fusing" onclick="document.getElementById('age-range14').value='11-13 (F); 14-16 (M)';">
 			
-			<br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range').value='13+ (F) and 16+ (M)';">
+			<br><br><input type="button" value="Complete fusion" onclick="document.getElementById('age-range14').value='13+ (F) and 16+ (M)';">
+
+			<br><h5>Estimated Age Range:<input type="text" id="age-range14" value="" size="20"></h5>
 			
-			<br>
 		</div>
 	</div>
 </section>	  
